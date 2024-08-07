@@ -1,4 +1,10 @@
-# DocumentBuilder
-Конструктор документов - позволяет формировать необходимые документы, на основании информации из шины данных. Получая информацию о конкретном пользователе, конструктор собирает документ, используя данные из шины для последующей распечатки готового документа. Также программа предоставляет возможность скачивать и сохранять готовый документ.
 
-![Image alt](https://github.com/WillWunderhorn/DocumentBuilder/blob/main/doc/registration_form/html/images/screen.png)
+  # searching system design
+
+  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+
+  To preview and run the project on your device:
+  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  2) In the terminal, run `npm install`
+  3) Run `npm start` to view project in browser
+  
