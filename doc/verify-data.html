@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./verify-data.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" />
+</head>
+
+<body>
+  <div class="verify-data">
+    <main class="verification">
+      <div class="verification-child"></div>
+      <div class="certificate-owner">
+        <div class="div28">Проверьте введенные данные:</div>
+        <b class="b4">Сведения о владельце сертификата</b>
+      </div>
+      <div class="div29">
+        <p class="p2">ФИО: Иванов Иван Иванович Дата рождения: 28.02.1975</p>
+        <p class="p3">Наименование документа: Паспорт гражданина РФ</p>
+        <p class="p4">Номер документа: 4277 555888</p>
+        <p class="p5">Дата выдачи: 30.03.2015</p>
+        <p class="p6">Кем выдан: МВД РФ</p>
+      </div>
+      <section class="learner">
+        <div class="student-details1">
+          <b class="b5">Сведения об обучающемся</b>
+          <div class="div30">
+            <p class="p7">
+              ФИО: Иванов Петр Иванович Дата рождения: 11.02.2003
+            </p>
+            <p class="p8">Номер студенческого билета: 211200</p>
+            <p class="p9">Направление: Прикладная Информатика</p>
+            <p class="p10">Факультет: ИТиАБД</p>
+          </div>
+        </div>
+        <div class="agreement-info">
+          <b class="b6">Сведения о договоре</b>
+          <div class="university">
+            <div class="div31">
+              <p class="p11">
+                Наименование организации: Финансовый университет при
+                Правительстве РФ
+              </p>
+              <p class="p12">Номер договора: 0792у/0</p>
+              <p class="p13">Дата заключения: 20.08.2020</p>
+            </div>
+            <footer class="download-button-wrapper">
+              <button class="download-button4" id="downloadButton">
+                <div class="download-button-child1"></div>
+                <div class="div32">Скачать</div>
+              </button>
+            </footer>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    var downloadButton = document.getElementById("downloadButton");
+    if (downloadButton) {
+      downloadButton.addEventListener("click", function (e) {
+        window.location.href = "./download-data.html";
+      });
+    }
+  </script>
+</body>
+
+</html>
